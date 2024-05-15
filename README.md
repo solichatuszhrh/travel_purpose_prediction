@@ -2,7 +2,7 @@
 - This study aims to predict trip purpose prediction using GPS data from a smartphone. Innovation in smart surveys can reduce the burden on respondents in filling out daily travel diaries of each stop and track.
 - The GPS data was collected by Statistics Netherlands (CBS), therefore, the data is not available publicly without permission. GPS data was linked to administrative data (sociodemographic variables) from CBS.
 - Information from OSM is then combined with the GPS and administrative data.
-- To reproduce this study, one can run the [R script](./r_annotated_script.R) in RStudio. However, all data files cannot be included in this archive.  
+- To reproduce this study, one can run the [R script](./r_script_annotated.R) in RStudio. However, all data files cannot be included in this archive.  
 - Information from OSM can be gathered using [Python script](./python_script.py) for each province using a specific radius for the bounding box. Input data to run this script is also not publicly available because it contains a person's location. 
 
 
