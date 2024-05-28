@@ -3,8 +3,18 @@
 - The GPS data was collected by Statistics Netherlands (CBS), therefore, the data is not available publicly without permission. GPS data was linked to administrative data (sociodemographic variables) from CBS.
 - Information from OSM is then combined with the GPS and administrative data.
 - To reproduce this study, one can run the [R script](./r_script_annotated.R) in RStudio. However, all data files cannot be included in this archive.  
-- Information from OSM can be gathered using [Python script](./python_script.py) for each province using a specific radius for the bounding box. Input data to run this script is also not publicly available because it contains a person's location. 
+- Information from OSM can be gathered using [Python script](./python_script.py) for each province using a specific radius for the bounding box. Input data to run this script is also not publicly available because it contains a person's location.
+- The full version of the thesis can be requested to the author (s.zahroh@uu.nl)
 
+
+# Research Questions
+This study aims to answer the general research question “How well can we predict the travel purpose using sensor data from a smartphone-based travel diary study?” which can be
+translated into two sub-questions as follows:
+(1) To what extent are external spatial and temporal patterns data helpful in predicting travel purposes?
+(2) To what extent do individual behaviours and characteristics influence the accuracy of travel purpose prediction?
+
+# Methods
+In order to answer research questions, artificial neural network models were used with several kinds of feature engineering. The best model was combined with weather data and the compared with other machine learning models, such as random forest, extreme gradient boosting, support vector machine, and naive bayes.
 
 # Requirements
 All analysis was conducted in `RStudio 2023.12.1+402` with `R 4.4.0`. Packages used during the analysis are:
